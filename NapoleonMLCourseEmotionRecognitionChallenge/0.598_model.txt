@@ -1,0 +1,1 @@
+model.compile(Adam(1e-4), loss='categorical_crossentropy', metrics=['accuracy'])     shuffle=True, batch_size=100, validation_split=0.2, epoch = 254, val_acc = 0.5684, acc = 0.5669,                   accuracy_score(y_test_c, np.argmax(model.predict(X_test), axis=1)) = 0.5827
